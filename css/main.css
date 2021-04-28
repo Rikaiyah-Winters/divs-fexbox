@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #006c67;
+  background-color: #faaa8d;
   height: 100%;
   width: 100%; /*Added*/
 }
@@ -162,15 +162,33 @@ footer {
 
 main {
     background-color: #006c67;
-    height: 250px;
+    height: 460px;
     width: 100%;
     color: #fff;
     display: flex;
     justify-content: center;
-    font-size: 2em;
-    border-bottom-style: solid;
+    font-size: 1.75em;
+    /*border-bottom-style: solid;
     border-color: #fff;
     border-width: 2px; /*ems?*/
+  }
+
+  article {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  figure {
+    padding-left: 150px;
+  }
+
+  .main {
+      padding-right: 110px;
+  }
+
+  figure, .main {
+    width: 50%;
   }
 /* ==========================================================================
    Helper classes
