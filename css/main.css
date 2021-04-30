@@ -140,7 +140,32 @@ body {
     padding: 0 1.75em;
 }
 
-header, footer {
+header {
+    background-color: #006c67;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    font-size: 2em;
+    padding-bottom: 20px; /*ems?*/
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, footer {
     background-color: #006c67;
     height: 80px;
     width: 100%;
@@ -148,7 +173,7 @@ header, footer {
     display: flex;
 }
 
-header {
+h1 {
     font-size: 3.15em;
     padding-bottom: 20px; /*ems?*/
     border-radius: 25px;
