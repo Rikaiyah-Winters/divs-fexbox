@@ -98,15 +98,27 @@ textarea {
 
 html {
   background-color: #faaa8d;
-  height: 100%;
+  font-size: 16px;
+  /*height: 100%;
   width: 100%; /*Added*/
 }
 
 body {
+font-size: 1.25em;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+  color: #fff;
+  /*padding: 2em;*/
+  /*height: 100%;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
 }
 
 .wrapper {
@@ -148,21 +160,8 @@ header {
     display: flex;
     font-size: 2em;
     padding-bottom: 20px; /*ems?*/
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     margin-bottom: 10px;
-}
-
-a {
-    color: #fff;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 h1, footer {
@@ -187,7 +186,7 @@ footer {
     border-top-style: solid;
     border-color: #fff;
     border-width: 2px; /*ems?*/
-    border-radius: 25px;
+    /*border-radius: 25px;*/
 }
 
 main {
