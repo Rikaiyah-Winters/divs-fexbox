@@ -214,11 +214,11 @@ main {
     padding-left: 150px;
   }
 
-  .main {
+  .introduction {
     padding-right: 110px;
   }
 
-  figure, .main {
+  figure, .introduction {
     width: 50%;
   }
 /* ==========================================================================
