@@ -119,6 +119,14 @@ ul {
 
 a {
     color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.15em;
+    padding-bottom: 20px; /*ems?*/
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
 
 .wrapper {
@@ -130,27 +138,6 @@ a {
   align-items: center;
 }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.15em; /*Changed from 1.6em - font was too big.*/
-  background-color: #006c67;
-  height: 300px;
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-  border-radius: 25px;
-  padding: 5px;
-}
-.div-2 {
-    border-style: none solid;
-    border-color: #fff;
-    border-width: 1px; /*ems?*/
-    padding: 0 1.75em;
-}
 
 header {
     background-color: #006c67;
@@ -172,24 +159,25 @@ h1, footer {
     display: flex;
 }
 
-h1 {
-    font-size: 3.15em;
-    padding-bottom: 20px; /*ems?*/
-    border-radius: 25px;
-    margin-bottom: 10px;
-}
-
-footer {
+article {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top-style: solid;
-    border-color: #fff;
-    border-width: 2px; /*ems?*/
-    /*border-radius: 25px;*/
+    justify-content: space-between;
+    text-align: left;
 }
 
-main {
+figure {
+    padding-left: 150px;
+}
+
+figure, .introduction {
+    width: 50%;
+}
+
+.introduction {
+    padding-right: 110px;
+}
+
+.introduction p {
     background-color: #006c67;
     height: auto;
     width: 100%;
@@ -202,25 +190,41 @@ main {
     /*border-bottom-style: solid;
     border-color: #fff;
     border-width: 2px; /*ems?*/
-  }
+}
 
-  article {
+.div-1, .div-2, .div-3 {
+    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.15em; /*Changed from 1.6em - font was too big.*/
+    background-color: #006c67;
+    height: 300px;
     display: flex;
-    justify-content: space-between;
-    text-align: left;
-  }
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 25px;
+    padding: 5px;
+}
 
-  figure {
-    padding-left: 150px;
-  }
+.div-2 {
+    border-style: none solid;
+    border-color: #fff;
+    border-width: 1px; /*ems?*/
+    padding: 0 1.75em;
+}
 
-  .introduction {
-    padding-right: 110px;
-  }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-color: #fff;
+    border-width: 2px; /*ems?*/
+    /*border-radius: 25px;*/
+}
 
-  figure, .introduction {
-    width: 50%;
-  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
