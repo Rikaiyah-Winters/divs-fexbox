@@ -107,6 +107,7 @@ body {
 font-size: 1.25em;
   font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
+  text-align: left;
   /*padding: 2em;*/
   /*height: 100%;*/
 }
@@ -129,7 +130,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.wrapper {
+.content-wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
@@ -169,15 +170,15 @@ figure {
     padding-left: 150px;
 }
 
-figure, .introduction {
+figure, .introduction-paragraph {
     width: 50%;
 }
 
-.introduction {
+.introduction-paragraph {
     padding-right: 110px;
 }
 
-.introduction p {
+.introduction-paragraph p {
     background-color: #006c67;
     height: auto;
     width: 100%;
