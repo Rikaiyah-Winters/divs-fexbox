@@ -166,6 +166,11 @@ article {
     text-align: left;
 }
 
+img {
+    height: 300px;
+    width: 214px;
+}
+
 figure {
     padding-left: 150px;
 }
