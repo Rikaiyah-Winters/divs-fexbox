@@ -206,7 +206,7 @@ figure, .introduction-paragraph {
     background-color: #006c67;
     height: 300px;
     display: flex;
-    width: 30%;
+    width: auto;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
