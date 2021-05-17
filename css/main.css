@@ -175,8 +175,14 @@ figure {
     padding-left: 150px;
 }
 
-figure, .introduction-paragraph {
+/*figure, .introduction-paragraph {
     width: 50%;
+}*/
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .introduction-paragraph {
